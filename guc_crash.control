@@ -1,0 +1,4 @@
+comment = 'An extension that makes gpdb crash.'
+default_version = '1.0.0'
+module_pathname = '$libdir/guc_crash'
+relocatable = true
