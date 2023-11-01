@@ -10,7 +10,7 @@ char *str_guc;
 
 void _PG_init(void) {
   DefineCustomStringVariable("crash.str_guc", "Some string GUC parameter", NULL,
-                             &str_guc, NULL, PGC_USERSET, GUC_GPDB_NEED_SYNC,
+                             &str_guc, NULL, PGC_USERSET, GUC_EXPLAIN,
                              /*check_hook=*/NULL,
                              /*assign_hook=*/NULL,
                              /*show_hook=*/NULL);
